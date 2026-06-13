@@ -1,0 +1,243 @@
+.hero__header{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8);
+    height: 70vh;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.header__nav-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+.hero__header-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+    gap: 60px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.small__nav{
+    display: none;
+}
+.hero__headtitle{
+    width: 550px;
+    margin-left: 30px; 
+}
+
+@media (max-width: 768px) {
+    .hero__header .contact__header{
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .hero__headtitle{
+        width: 100%;
+        margin-left: 0;
+    }
+    .header__nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav__bar-links{
+        display: none;
+    }
+    .hero__header{
+        height: 60vh;
+    }
+    .small__nav{
+        display: block;
+        overflow: hidden;
+    }
+     .nav__links{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .fa-bars{
+        color: var(--white-color);
+        font-size: 24px;
+    }
+    .contact__section{
+    padding: 10px;
+    }
+
+
+}
+
+.nav__links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.dropdown__btn{
+    background-color: transparent;
+    border: none;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dropdown__content{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: solid 1px color var(--primary-color);
+    z-index: 1;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown__content{
+    display: block;
+}
+
+.dropdown__btn:hover{
+    color: var(--primary-color);
+}
+
+.btn__outline-success{
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+    color: var(--white-color);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.btn__outline-success:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.form-control{
+    padding: 5px 10px;
+    border: 2px solid var(--white-color);
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.form-control::placeholder{
+    color: var(--white-color);
+}
+.form-control:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+
+
+.scrall{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .header__hero {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0, 15px;
+    }
+    .hero__header-content{
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .hero__headtitle{
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        font-size: 24px;
+    }
+    
+}
+
+/* partie css page menu*/
+
+
+.menu__hero__header{
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+    height: 60vh;
+}
+.menu__hero-title{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.btn-menu{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-size: 8px;
+}
+.btn-menu:hover{
+    ackground-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* partie css page contact */
+.contact__header{
+    background-color: var(--secondary-color);
+ }
+@media screen and (max-width: 768px) {
+    .contact__header {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0, 15px;
+    }
+    
+}

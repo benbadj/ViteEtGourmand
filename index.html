@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/_custom.scss">
+    <script src="https://kit.fontawesome.com/5e709719fd.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    
-    <header>Le menu</header>
+
+    <section class="hero__header">
+        <header>
+            <nav class="header__nav">
+                    <div class="nav__bar-logo">
+                        <a href="">Vite et Gourmand</a>
+                    </div>
+                    <div class="nav__bar-links">
+                        <ul class="nav__links">
+                            <li><a href="./" class="nav__links-accueil">Accueil</a></li>
+                            <li><a href="" class="nav__links-menu">Menu</a></li>
+                            <div class="dropdown">
+                                <button class="dropdown__btn">Me connecter<i class="fa-solid fa-caret-down"></i></button>
+                                    <div class="dropdown__content">
+                                            <li><a href="" class="dropdown__link">connexion</a></li>
+                                            <li><a href="" class="dropdown__link">inscription</a></li>
+                                            <li><a href="" class="dropdown__link">help</a></li>
+                                        </div>
+                            </div> 
+                            <li><a href="">Contact</a></li>
+                            <li>
+                                <form class="all__forms" role="search">
+                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+                                    <button class="btn__outline-success" type="submit">Search</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="small__nav">
+                        <div>
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </nav>
+        </header>
 
     <main id = "main-page">
         <!-- cle contenu de ma page sera injecté ici-->

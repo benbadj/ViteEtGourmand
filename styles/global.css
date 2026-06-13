@@ -1,0 +1,30 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--roboto);
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a{
+    color:var(--white-color);
+    font-size: 14px;
+    transition: all 0.3s ease;
+    
+}
+a:hover{
+    color: var(--primary-color);
+}
+h2 {
+    color: var(--primary-color);
+}
+

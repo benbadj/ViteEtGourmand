@@ -1,0 +1,73 @@
+footer{
+    background-color: var(--secondary-color);
+    position:relative;
+    bottom:0;
+    width:100%;
+    
+}
+.alls__footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.horraires__contact{
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.open__close-adresse{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.social__networks-details{
+    text-align: center;
+    
+}
+.fa-brands{
+    color: var(--black-color);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer__legal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.footer__legal-details{
+    color: var(--black-color);
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .footer__footer{
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .alls__footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .horraires__contact{
+        font-size: 14px;
+    }
+    .open__close-adresse{
+        font-size: 14px;
+    }
+    .social__networks-details{
+        font-size: 14px;
+    }
+    
+}

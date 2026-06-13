@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap';
+@import 'global.css';
+@import 'menu.css';
+@import 'header.css';
+@import 'footer.css';
+:root {
+  --primary-color: rgb(173, 217, 129);
+  --secondary-color: rgb(255, 255, 215);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+  --background-color: #f5f5f5;
+  --text-color: rgb(0, 0, 0);
+  --stars-colors: #FFD700;
+  --roboto: "roboto slab", serif;
+}/*# sourceMappingURL=main.css.map */
