@@ -8,6 +8,9 @@ const route404 = new Route("404", "Page introuvable", "/pages/404.html");
 const getRouteByUrl = (url) => {
 
   let currentRoute = null;
+  if (url === "/index.html" || url === "") {
+    url = "/";
+  }
 
   // Parcours de toutes les routes pour trouver la correspondance
 

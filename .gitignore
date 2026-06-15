@@ -1,0 +1,18 @@
+# --- Outils de developpement et editeur ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DP-store
+Thumbs.de
+
+# --- Sass / css ---
+# on ignore les fichiers .map qui polluent les commits à chaque modifictions
+*.css.map
+*.sass.map
+.sass-cash/
+.node_modules
+
